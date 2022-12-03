@@ -1,0 +1,36 @@
+.main {
+  height: 100vh;
+  padding: 6px;
+}
+
+.listItem {
+  height: 68px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.listItem:hover {
+  background-color: #f5f5f5;
+}
+
+.nameChat {
+  font-size: 18px;
+  font-weight: 600;
+  width: 120px;
+  margin-left: 25px;
+}
+.textChat {
+  color: #7f8b97;
+}
+
+.img {
+  height: 60px;
+  width: 60px;
+  margin-right: 25px;
+  img {
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+  }
+}

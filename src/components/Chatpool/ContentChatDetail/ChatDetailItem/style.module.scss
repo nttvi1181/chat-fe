@@ -1,0 +1,12 @@
+.content_text_massage {
+  & a {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.contentMessage {
+  position: relative;
+  // display: flex;
+  max-width: 560px;
+}
